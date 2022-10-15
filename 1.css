@@ -1,0 +1,173 @@
+.display{
+    display: flex;
+}
+.padding_left{
+    padding-left: 800px;
+}
+.padding_left1{
+    padding-left: 797px;
+}
+table tr td{
+    text-align: center;
+}
+.width{
+    width: 180px;
+}
+.width_table{
+    width: 1035px;
+}
+.input1{
+    width: 110px;
+}
+.padding_country{
+    padding-left: 680px;
+}
+.padding_flight{
+    padding-left: 685px;
+}
+.padding_phone{
+    padding-left: 685px;
+}
+.padding_phone input{
+    width: 175px;
+}
+.padding_opi{
+    padding-left: 685px;
+}
+.phong1{
+    width: fit-content;
+    margin: auto;
+}
+/*Phan header */
+div.container{
+    width: 100%;
+}
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.banner{
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/back-ground.jpg);
+    background-position:center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    transform: translateX(17cm);
+}
+.navbar ul li a{
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;   
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+} 
+/* Phan footer */
+div.email{
+    text-align: center;
+    border: 1px solid black;
+    height: 60px;
+    background-color: #101010;
+    position: relative;
+    margin-top: 0px;
+}
+div.email p.name{
+    color: #fff;
+    margin-top: 18px;
+}
+div.email p.click{
+    position: absolute;
+    right: 750px;
+    top: 15px;
+    border: 2px solid black;
+    color: #fff;
+    font-weight: bold;
+    background-color: orange;
+    padding-top: 3px;
+
+}
+div.email p.first{
+    position: absolute;
+    top: 18px;
+    left: 650px;
+    color: white;
+    font-weight: bold;
+}
+div.email a{
+    text-decoration: none;
+    color: white;
+}
+div.email a:hover{
+   color: blue;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif, arial;
+    height: 200px;
+    width: 100%;
+    line-height: 15px;
+    background-color: #ededed;
+}
+div.footer__column ul{
+    list-style: none;
+    margin-top: 20px;
+}
+div.footer__column h3{
+   padding-left: 0px;
+   padding-top: 10px;
+}
+div.footer__column li{
+    margin-top: 8px;
+    padding-left: 0px;
+}
+div.footer__column a{
+    text-decoration: none;
+    color: black;
+}
+div.footer__column a:hover{
+    color: orange;
+}
+div.footer__column i.fa-facebook{
+    color: blue;
+}
+div.footer__column i.fa-youtube{
+    color: red;
+}
+div.final{
+    text-align: center;
+}
+div.logo1{
+    margin-right: 20px;
+}
