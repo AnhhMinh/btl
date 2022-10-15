@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/1406c749b8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <div class="container">
         <div class="banner">
             <div class="navbar">
@@ -29,105 +30,107 @@
             </div>    
         </div> 
     </div>    
-    <div class="display">
-       <div>
-            <label for="come">Ngày đến: </label><br>
-            <input type="date" name="" id="come">
+    <div class="phong1">
+        <div class="display">
+            <div>
+                <label for="come">Ngày đến: </label><br>
+                <input type="date" name="" id="come">
+            </div>
+            <div class="padding_left">
+                <label for="go">Ngày đi: </label><br>
+                <input type="date" name="" id="go">
+            </div> 
         </div>
-        <div class="padding_left">
-            <label for="go">Ngày đi: </label><br>
-            <input type="date" name="" id="go">
-        </div> 
-    </div>
-    <div class="display">
+        <div class="display">
+            <div>
+                <label for="adult">Người lớn: </label><br>
+                <input type="number" name="" id="adult" class="input1">
+            </div>
+            <div class="padding_left1">
+                <label for="kid">Trẻ em: </label><br>
+                <input type="number" name="" id="kid" class="input1">
+            </div>
+        </div>
         <div>
-            <label for="adult">Người lớn: </label><br>
-            <input type="number" name="" id="adult" class="input1">
+            <table border="1" cellpadding="10" class="width_table">
+                <tr>
+                    <th>Loại phòng</th>
+                    <th>Giá/Đêm</th>
+                    <th>Số người tối đa</th>
+                    <th>Chọn phòng</th>
+                </tr>
+                <tr>
+                    <td><a href="#">DELUXE</a></td>
+                    <td>1.260.000 VNĐ</td>
+                    <td>2</td>
+                    <td><input type="number" min="0"></td>
+                </tr>
+                <tr>
+                    <td><a href="#">RAVATEL SUITE</a></td>
+                    <td>3.200.000 VNĐ</td>
+                    <td>2</td>
+                    <td><input type="number" min="0"></td>
+                </tr>
+                <tr>
+                    <td><a href="#">SUPERIOR</a></td>
+                    <td>900.000 VNĐ</td>
+                    <td>2</td>
+                    <td><input type="number" min="0"></td>
+                </tr>
+                <tr>
+                    <td><a href="#">PREMIER DELUXE</a></td>
+                    <td>1.785.000 VNĐ</td>
+                    <td>2</td>
+                    <td><input type="number" min="0"></td>
+                </tr>
+            </table>
         </div>
-        <div class="padding_left1">
-            <label for="kid">Trẻ em: </label><br>
-            <input type="number" name="" id="kid" class="input1">
+        <div class="display">
+            <div>
+                <p><label for="">Giới tính </label></p>
+                <select name="" id="" class="width">
+                    <option value="">Nam</option>
+                    <option value="">Nữ</option>
+                </select>
+            </div>
+            <div class="padding_country">
+                <p><label for="">Quốc gia </label></p>
+                <input type="text" name="" id="">
+            </div>
         </div>
-    </div>
-    <div>
-        <table border="1" cellpadding="10" class="width_table">
-            <tr>
-                <th>Loại phòng</th>
-                <th>Giá/Đêm</th>
-                <th>Số người tối đa</th>
-                <th>Chọn phòng</th>
-            </tr>
-            <tr>
-                <td><a href="#">DELUXE</a></td>
-                <td>1.260.000 VNĐ</td>
-                <td>2</td>
-                <td><input type="number" min="0"></td>
-            </tr>
-            <tr>
-                <td><a href="#">RAVATEL SUITE</a></td>
-                <td>3.200.000 VNĐ</td>
-                <td>2</td>
-                <td><input type="number" min="0"></td>
-            </tr>
-            <tr>
-                <td><a href="#">SUPERIOR</a></td>
-                <td>900.000 VNĐ</td>
-                <td>2</td>
-                <td><input type="number" min="0"></td>
-            </tr>
-            <tr>
-                <td><a href="#">PREMIER DELUXE</a></td>
-                <td>1.785.000 VNĐ</td>
-                <td>2</td>
-                <td><input type="number" min="0"></td>
-            </tr>
-        </table>
-    </div>
-    <div class="display">
-        <div>
-            <p><label for="">Giới tính </label></p>
-            <select name="" id="" class="width">
-                <option value="">Nam</option>
-                <option value="">Nữ</option>
-            </select>
+        <div class="display">
+            <div>
+                <p><label for="name1">Họ và tên</label></p>
+                <input type="text" name="" id="name1">
+            </div>
+            <div class="padding_flight">
+                <p><label for="num1">Mã chuyến bay</label></p>
+                <input type="number" id="num1">
+            </div>
         </div>
-        <div class="padding_country">
-            <p><label for="">Quốc gia </label></p>
-            <input type="text" name="" id="">
+        <div class="display">
+            <div>
+                <p><label for="phone1">Số điện thoại </label></p>
+                <input type="text" id="phone1">
+            </div>
+            <div class="padding_phone">
+                <p><label for="den1">Thời gian đến </label></p>
+                <input type="date" name="" id="den1">
+            </div>
         </div>
-    </div>
-    <div class="display">
-        <div>
-            <p><label for="name1">Họ và tên</label></p>
-            <input type="text" name="" id="name1">
-        </div>
-        <div class="padding_flight">
-            <p><label for="num1">Mã chuyến bay</label></p>
-            <input type="number" id="num1">
-        </div>
-    </div>
-    <div class="display">
-        <div>
-            <p><label for="phone1">Số điện thoại </label></p>
-            <input type="text" id="phone1">
-        </div>
-        <div class="padding_phone">
-            <p><label for="den1">Thời gian đến </label></p>
-            <input type="date" name="" id="den1">
-        </div>
-    </div>
-    <div class="display">
-        <div>
-            <p><label for="email">Email </label></p>
-            <input type="email" name="" id="email"><br>
-            <p><label for="place">Địa chỉ </label></p>
-            <input type="text" name="" id="place"><br>
-            <p><label for="city">Thành phố</label></p>
-            <input type="text" name="" id="city"><br>
-        </div>
-        <div class="padding_opi">
-            <p><label for="opi">Ý kiến khác </label></p>
-            <textarea name="" id="opi" cols="22" rows="10"></textarea><br>
+        <div class="display">
+            <div>
+                <p><label for="email">Email </label></p>
+                <input type="email" name="" id="email"><br>
+                <p><label for="place">Địa chỉ </label></p>
+                <input type="text" name="" id="place"><br>
+                <p><label for="city">Thành phố</label></p>
+                <input type="text" name="" id="city"><br>
+            </div>
+            <div class="padding_opi">
+                <p><label for="opi">Ý kiến khác </label></p>
+                <textarea name="" id="opi" cols="22" rows="10"></textarea><br>
+            </div>
         </div>
     </div>
     <div class="display">
