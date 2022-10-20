@@ -1,132 +1,182 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab3.css">
+    <script src="https://kit.fontawesome.com/56db8d5121.js" crossorigin="anonymous"></script>
+</head>
 <body>
-  <div class="container">
-    <div class="title">Đặt phòng</div>
-    <div class="content">
-      <form action="#">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Ngày đến*</span>
-            <input type="date" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Ngày đi*</span>
-            <input type="date" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Người lớn</span>
-            <input type="number" min="0" placeholder="0" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Trẻ em</span>
-            <input type="number" min="0" placeholder="0" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Email </span>
-            <input type="email" name="" id="" placeholder="Nhập email" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Quốc gia</span>
-            <input type="text" placeholder="Mời nhập quốc gia" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Họ tên</span>
-            <input type="text" placeholder="Nhập tên" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Mã chuyến bay</span>
-            <input type="text" placeholder="Nhập mã" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Số điện thoại</span>
-            <input type="text" placeholder="Nhập số điện thoại" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Thời gian đến</span>
-            <input type="text" placeholder="Nhập thời gian đến" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Địa chỉ</span>
-            <input type="text" placeholder="Nhập địa chỉ" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Thành phố</span>
-            <input type="text" placeholder="Nhập thành phố" required>
-          </div>
-          <div class="dk">
-            <input type="checkbox">
-            <span class="details">Tôi đã đọc và đồng ý với các điều khoản và điều kiện của khách sạn Khách sạn Ravatel Inn</span>
-          </div>
-        </div>
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
-          </div>
-        </div>
-        <div class="user-details">
-            <table border="1" cellpadding="10" class="width_table">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1>Web Developers, Inc.</h1>
+    </div>
+    <div class="style">
+        <div class="table1">
+            <table >
                 <tr>
-                    <th>Loại phòng</th>
-                    <th>Giá/Đêm</th>
-                    <th>Số người tối đa</th>
-                    <th>Chọn phòng</th>
+                    <th><i class="fa-solid fa-square-minus"></i> Quicklink 1</th>
                 </tr>
                 <tr>
-                    <td><a href="#">DELUXE</a></td>
-                    <td>1.260.000 VNĐ</td>
-                    <td>2</td>
-                    <td><input type="number" min="0"></td>
+                    <td>Link 1</td>
                 </tr>
                 <tr>
-                    <td><a href="#">RAVATEL SUITE</a></td>
-                    <td>3.200.000 VNĐ</td>
-                    <td>2</td>
-                    <td><input type="number" min="0"></td>
+                    <td>Link 2</td>
                 </tr>
                 <tr>
-                    <td><a href="#">SUPERIOR</a></td>
-                    <td>900.000 VNĐ</td>
-                    <td>2</td>
-                    <td><input type="number" min="0"></td>
+                    <td>Link 3</td>
                 </tr>
                 <tr>
-                    <td><a href="#">PREMIER DELUXE</a></td>
-                    <td>1.785.000 VNĐ</td>
-                    <td>2</td>
-                    <td><input type="number" min="0"></td>
+                    <td>Link 4</td>
+                </tr>
+                <tr>
+                    <td>Link 5</td>
                 </tr>
             </table>
-        </div><br>
-        <div class="dk">
-            <input type="checkbox" id="check1">
-            <span class="details"><label for="check1">Tôi đã đọc và đồng ý với các điều khoản và điều kiện của khách sạn Khách sạn Ravatel Inn</label></span>
+            <table>
+                <tr>
+                    <th><i class="fa-solid fa-square-minus"></i>Quicklink 2</th>
+                </tr>
+                <tr>
+                    <td>Link 1</td>
+                </tr>
+                <tr>
+                    <td>Link 2</td>
+                </tr>
+                <tr>
+                    <td>Link 3</td>
+                </tr>
+                <tr>
+                    <td>Link 4</td>
+                </tr>
+                <tr>
+                    <td>Link 5</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th><i class="fa-solid fa-square-minus"></i>Quicklink 3</th>
+                </tr>
+                <tr>
+                    <td>Link 1</td>
+                </tr>
+                <tr>
+                    <td>Link 2</td>
+                </tr>
+                <tr>
+                    <td>Link 3</td>
+                </tr>
+                <tr>
+                    <td>Link 4</td>
+                </tr>
+                <tr>
+                    <td>Link 5</td>
+                </tr>
+            </table>
         </div>
-        <div class="button">
-          <input type="submit" value="Đăng ký">
-        </div>
-      </form>
+        <div >
+            <p>Welcome to our sample web page. We'll be disecting this page piece by piece to show you the best way to use HTML,CSS and Javascrip</p>
+            <table class="table2">
+                <tr>
+                    <th>Create a profile</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">First Name: </label>
+                        <input type="text" name="" id="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name: </label>
+                        <input type="text" name="" id="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of birth:
+                        <input type="date" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender:
+                        <label for="male"><input type="radio" name="gender" id="male">male</label> 
+                        <label for="female"><input type="radio" name="gender" id="female">female</label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="button">save</button></td>
+                </tr>
+            </table>
+            <table class="table3">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date of birth</th>
+                    <th>Gender</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2/15/1975</td>
+                    <td>Male</td>
+                </tr>
+            </table> 
+        </div> 
     </div>
-  </div>
+    <p class="c1">Copyright ©2009</p>
 </body>
 </html>
